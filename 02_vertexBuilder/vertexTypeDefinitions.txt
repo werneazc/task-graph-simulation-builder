@@ -1,0 +1,16 @@
+#contains a summery of needed vertex types.
+#the number behind the lists all vertices which are a member of this type
+AddVertex< unsigned int,unsigned int,unsigned int >: 16 | 20
+CastVertex< char,int >: 13
+CastVertex< char,unsigned int >: 6
+CastVertex< double,unsigned int >: 21
+CastVertex< float,unsigned int >: 11 | 18
+CastVertex< int,char >char >: 4
+CastVertex< int,float >: 12
+CastVertex< unsigned int,double >: 25
+DivVertex< double,double,double >: 23
+DivVertex< float,float,float >: 14
+LowerVertex< unsigned int,unsigned int >: 7
+ModVertex< unsigned int,unsigned int,unsigned int >: 26
+MulVertex< unsigned int,unsigned int,unsigned int >: 15 | 19
+SubVertex< double,double,double >: 24

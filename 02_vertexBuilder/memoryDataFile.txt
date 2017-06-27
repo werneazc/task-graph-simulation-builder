@@ -1,0 +1,19 @@
+#input value information:
+============================
+#memory value id | data type | representing vertex ID:
+0 | double | 3
+1 | float | 2
+2 | unsigned int | 0
+3 | unsigned int | 1
+
+#literal value information:
+============================
+#memory value id | data type | value | representing vertex ID:
+4 | double | 5 | 22
+5 | double | 20 | 5
+
+#result value information:
+============================
+#memory observer id | data type | predecessor vertex ID: | value id
+0 | unsigned int | 9 | 0
+1 | unsigned int | 26 | 0

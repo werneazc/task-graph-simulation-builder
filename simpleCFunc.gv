@@ -1,0 +1,14 @@
+digraph G {
+graph [label= "simpleCFunc"]
+0[shape=Mrecord rank=source label="{ VarInputVertex|VertexID: 0|Type: int|val1}"];
+1[shape=Mrecord rank=source label="{ VarInputVertex|VertexID: 1|Type: int|val2}"];
+2[shape=Mrecord label="{ BinOpAddVertex|VertexID: 2|Type: int|+}"];
+3[shape=Mrecord label="{ IntegerLiteralVertex|VertexID: 3|Type: int|Value: 10}"];
+4[shape=Mrecord label="{ BinOpMulVertex|VertexID: 4|Type: int|*=}"];
+5[shape=Mrecord label="{ ReturnVertex|VertexID: 5|Type: int|values returned by the function}"];
+1->2 [ label=" val2 \[int\]"];
+0->2 [ label=" val1 \[int\]"];
+3->4 [ label=" #literal \[int\]"];
+2->4 [ label=" retVal \[int\]"];
+4->5 [ label=" retVal \[int\]"];
+}
